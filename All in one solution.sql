@@ -30,7 +30,7 @@ select count(CITY)-count(distinct CITY) from station;
 /* FOR SECOND QUERY */ SELECT CITY,LENGTH(CITY) FROM STATION ORDER BY LENGTH(CITY) DESC,CITY DESC LIMIT 1;
     
       starting with vowel:
-select distinct city from station where city rlike '^[aeiou]';
+select distinct city from station where city rlike '^[aeiou]'; 
 or
 SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY,1) IN ('a','i','e','o','u');
 
