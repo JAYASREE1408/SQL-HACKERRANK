@@ -9,7 +9,7 @@ select name from city where population>120000 and countrycode='USA';
 select * from city; 
   
       Query all columns for a city in CITY with the ID 1661. 
-select * from city where ID=1661;
+select * from city where ID=1661; 
 
     Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN
 select * from city where countrycode='JPN';
