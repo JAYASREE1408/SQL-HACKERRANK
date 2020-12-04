@@ -1,4 +1,4 @@
-Select S.Name
+Select S.Name 
 From ( Students S join Friends F Using(ID)
        join Packages P1 on S.ID=P1.ID
        join Packages P2 on F.Friend_ID=P2.ID)
