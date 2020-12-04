@@ -45,7 +45,7 @@ SELECT DISTINCT CITY FROM STATION WHERE RIGHT(CITY,1) IN ('a','i','e','o','u');
  select distinct city from station where LEFT(CITY,1) IN ('a','i','e','o','u') and RIGHT(CITY,1) IN ('a','i','e','o','u');
 or
 select distinct city from station where city rlike '^[aeiou]' &&     (or )   and   city rlike '[aeiou]$' ;
-   not start
+   not start 
 select distinct city from station where  not city rlike '^[aeiou]';        (or)
 select distinct city from station where city rlike '^[^aeiou]';
 select distinct city from station where  city rlike '^[^aeiou]' || city rlike '[^aeiou]$' ;
