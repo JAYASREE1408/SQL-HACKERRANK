@@ -1,2 +1,2 @@
-select sum(population) from city where countrycode='jpn';
+select sum(population) from city where countrycode='jpn'; 
 
