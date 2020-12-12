@@ -5,3 +5,4 @@ From ( Students S join Friends F Using(ID)
 Where P2.Salary > P1.Salary  
 Order By P2.Salary;   
 
+
