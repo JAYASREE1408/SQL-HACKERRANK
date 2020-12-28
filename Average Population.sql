@@ -1,3 +1,6 @@
 SELECT ROUND(AVG(POPULATION)-0.5) FROM CITY;
 or
 SELECT FLOOR(AVG(POPULATION)) FROM CITY;
+
+                 
+                 
